@@ -1,0 +1,9 @@
+[package]
+name = "one-brush"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+env_logger = "0.11"
+quad-engine-core = { path = "../quad-engine-core" }
+rosin = { git = "https://github.com/F1reAceYT/rosin.git", rev = "afd52f6465bcb0f170494576dfa3ed402ccbcf5e" }
